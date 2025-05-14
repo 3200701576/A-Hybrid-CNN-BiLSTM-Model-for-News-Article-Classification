@@ -27,7 +27,7 @@ from tensorflow.keras.models import Sequential
 
 # Load and prepare data
 def load_data():
-    df = pd.read_csv("./data/data.csv").dropna()
+    df = pd.read_csv("./data.csv").dropna()
     np.random.seed(38)
     df = df.sample(frac=1)
     df = df.drop_duplicates()
