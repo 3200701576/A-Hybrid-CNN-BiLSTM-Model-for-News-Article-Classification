@@ -236,4 +236,4 @@ class TextClassifier:
 
 if __name__ == "__main__":
     classifier = TextClassifier()
-    classifier.run("./data/data.csv")
+    classifier.run("./data.csv")
